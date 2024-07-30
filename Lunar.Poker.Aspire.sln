@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunar.Poker.Aspire.AppHost", "Lunar.Poker.Aspire.AppHost\Lunar.Poker.Aspire.AppHost.csproj", "{CA25A586-548E-4A96-80F4-35270A2A72DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunar.Poker.Aspire.ServiceDefaults", "Lunar.Poker.Aspire.ServiceDefaults\Lunar.Poker.Aspire.ServiceDefaults.csproj", "{D2168767-BC90-4F8C-958F-CE23C35E0953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunar.Poker.Aspire.ApiService", "Lunar.Poker.Aspire.ApiService\Lunar.Poker.Aspire.ApiService.csproj", "{AB2A1E7A-EAA0-4E41-A1C9-D686DCBCD64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunar.Poker.Aspire.Web", "Lunar.Poker.Aspire.Web\Lunar.Poker.Aspire.Web.csproj", "{7154496C-CA8D-4A01-93B0-3276C4DE98A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA25A586-548E-4A96-80F4-35270A2A72DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA25A586-548E-4A96-80F4-35270A2A72DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA25A586-548E-4A96-80F4-35270A2A72DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA25A586-548E-4A96-80F4-35270A2A72DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2168767-BC90-4F8C-958F-CE23C35E0953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2168767-BC90-4F8C-958F-CE23C35E0953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2168767-BC90-4F8C-958F-CE23C35E0953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2168767-BC90-4F8C-958F-CE23C35E0953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2A1E7A-EAA0-4E41-A1C9-D686DCBCD64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2A1E7A-EAA0-4E41-A1C9-D686DCBCD64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2A1E7A-EAA0-4E41-A1C9-D686DCBCD64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2A1E7A-EAA0-4E41-A1C9-D686DCBCD64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7154496C-CA8D-4A01-93B0-3276C4DE98A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7154496C-CA8D-4A01-93B0-3276C4DE98A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7154496C-CA8D-4A01-93B0-3276C4DE98A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7154496C-CA8D-4A01-93B0-3276C4DE98A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
