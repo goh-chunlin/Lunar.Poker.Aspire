@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Lunar.Poker.Aspire.Web/Lunar.Poker.Aspire.Web.csproj", "Lunar.Poker.Aspire.Web/"]
-COPY ["Lunar.Poker.Aspire.ServiceDefaults/Lunar.Poker.Aspire.ServiceDefaults.csproj", "Lunar.Poker.Aspire.ServiceDefaults/"]
+#COPY ["Lunar.Poker.Aspire.ServiceDefaults/Lunar.Poker.Aspire.ServiceDefaults.csproj", "Lunar.Poker.Aspire.ServiceDefaults/"]
 RUN dotnet restore "Lunar.Poker.Aspire.Web/Lunar.Poker.Aspire.Web.csproj"
 COPY . .
 WORKDIR "/src/Lunar.Poker.Aspire.Web"
