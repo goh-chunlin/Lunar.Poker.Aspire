@@ -1,4 +1,4 @@
-name: Build and Push Docker Image to ECR
+name: Build and Push Lunar.Poker.Aspire.Web Docker Image to ECR
 
 on:
   push:
@@ -32,9 +32,6 @@ jobs:
     - name: Build, tag, and push Docker image
       id: build-and-push
       run: |
-        # Define the subfolder
-        SUBFOLDER=Lunar.Poker.Aspire.Web
-
         # Get the ECR repository URI
         ECR_REPOSITORY=${{ secrets.ECR_REPOSITORY_URI }}
 
@@ -42,7 +39,7 @@ jobs:
         IMAGE_TAG=latest
 
         # Build the Docker image
-        docker build -t $ECR_REPOSITORY:$IMAGE_TAG ./$SUBFOLDER
+        docker build -t $ECR_REPOSITORY:$IMAGE_TAG -f Lunar.Poker.Aspire.Web/Dockerfile .
 
         # Push the Docker image to ECR
         docker push $ECR_REPOSITORY:$IMAGE_TAG
